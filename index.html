@@ -1,0 +1,36 @@
+10.30 10:35 PM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>️ Live Weather Dashboard</h1>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="weatherInfo" class="weather-info" style="display:none;">
+      <h2 id="cityName"></h2>
+      <p id="temperature"></p>
+      <p id="humidity"></p>
+      <p id="windSpeed"></p>
+      <p id="description"></p>
+    </div>
+
+    <p id="error" class="error"></p>
+  </div>
+
+  <footer>
+    <p>Weather Dashboard © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
